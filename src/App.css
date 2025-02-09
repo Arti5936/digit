@@ -1,0 +1,233 @@
+
+        /* General Reset */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+      body {
+          font-family: 'Arial', sans-serif;
+          background-color: #121212; /* Dark background */
+          color: #e0e0e0; /* Light text */
+          line-height: 1.6;
+          padding: 0;
+      }
+
+      /* Navbar Styles */
+      .navbar {
+          background-color: #1f1f1f; /* Darker navbar */
+          color: #e0e0e0;
+          padding: 1rem 2rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .navbar h1 {
+          font-size: 1.8rem;
+          font-weight: bold;
+      }
+
+      .navbar ul {
+          list-style: none;
+          display: flex;
+          gap: 1.5rem;
+      }
+
+      .navbar li {
+          display: inline;
+      }
+
+      .navbar a {
+          color: #e0e0e0;
+          text-decoration: none;
+          font-size: 1rem;
+          padding: 0.5rem 1rem;
+          transition: color 0.3s ease, background-color 0.3s ease;
+          border-radius: 4px;
+      }
+
+      .navbar a:hover {
+          background-color: #333333;
+          text-decoration: none;
+          color: #ffffff;
+      }
+
+      /* Form Styles */
+      form {
+          background: #1e1e1e; /* Dark form background */
+          max-width: 800px;
+          margin: 2rem auto;
+          padding: 2rem;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      }
+
+      form h2 {
+          margin-bottom: 1.5rem;
+          font-size: 1.8rem;
+          text-align: center;
+          color: #e0e0e0;
+      }
+
+      form h3 {
+          font-size: 1.2rem;
+          color: #e0e0e0;
+          margin: 1rem 0;
+      }
+
+      form input[type="text"],
+      form input[type="email"],
+      form input[type="url"],
+      form input[type="date"],
+      form select,
+      form textarea {
+          width: 100%;
+          padding: 0.75rem;
+          margin-bottom: 1rem;
+          border: 1px solid #444444;
+          background-color: #2a2a2a;
+          color: #e0e0e0;
+          border-radius: 5px;
+          font-size: 1rem;
+          transition: border-color 0.3s ease;
+      }
+
+      form input[type="text"]:focus,
+      form input[type="email"]:focus,
+      form input[type="url"]:focus,
+      form input[type="date"]:focus,
+      form select:focus,
+      form textarea:focus {
+          border-color: #1abc9c;
+          outline: none;
+      }
+
+      form textarea {
+          resize: vertical;
+          min-height: 100px;
+      }
+
+      form select {
+          appearance: none;
+          background-color: #2a2a2a;
+          color: #e0e0e0;
+          cursor: pointer;
+      }
+
+      form select option {
+          padding: 0.5rem;
+          background-color: #2a2a2a;
+          color: #e0e0e0;
+      }
+
+      /* Nested Fields */
+      form .nested-section {
+          margin-bottom: 2rem;
+      }
+
+      form .nested-field {
+          margin-bottom: 1rem;
+          padding: 1rem;
+          background-color: #2a2a2a;
+          border-radius: 5px;
+          border: 1px solid #444444;
+      }
+
+      form .nested-field h4 {
+          font-size: 1rem;
+          color: #e0e0e0;
+          margin-bottom: 0.5rem;
+      }
+
+      form .nested-field input,
+      form .nested-field textarea,
+      form .nested-field select {
+          margin-bottom: 0.5rem;
+      }
+
+      form .nested-field .button-group {
+          display: flex;
+          justify-content: flex-start;
+          gap: 0.5rem;
+      }
+
+      form .add-button,
+      form .remove-button {
+          display: inline-block;
+          padding: 0.5rem 1rem;
+          font-size: 0.9rem;
+          color: #ffffff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+      }
+
+      form .add-button {
+          background-color: #3498db;
+      }
+
+      form .add-button:hover {
+          background-color: #2980b9;
+      }
+
+      form .remove-button {
+          background-color: #e74c3c;
+      }
+
+      form .remove-button:hover {
+          background-color: #c0392b;
+      }
+
+      /* Submit Button */
+      form button[type="submit"] {
+          display: block;
+          width: 100%;
+          padding: 0.75rem;
+          background-color: #2980b9;
+          color: #ffffff;
+          border: none;
+          border-radius: 5px;
+          font-size: 1.2rem;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          margin-top: 1.5rem;
+      }
+
+      form button[type="submit"]:hover {
+          background-color:peru;
+      }
+
+      /* Portfolio List and Details */
+      .container {
+          max-width: 800px;
+          margin: 2rem auto;
+          padding: 1.5rem;
+          background: #1e1e1e;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      }
+
+      .container h2 {
+          margin-bottom: 1rem;
+          font-size: 2rem;
+          color: #e0e0e0;
+          text-align: center;
+      }
+
+      .container p {
+          margin: 0.5rem 0;
+          font-size: 1rem;
+          color: #cccccc;
+          line-height: 1.4;
+      }
+
+      .container ul {
+          list-style-type: none;
+          padding: 0;
+      }
+
+   
